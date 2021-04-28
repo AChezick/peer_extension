@@ -11,10 +11,16 @@ Assuming possibly sensitive tweets are more likely to have a higher retweet coun
   
  ### Tech Stack
  A Docker image containing Apache Spark and PySpark were used. A pre-built* container can be obtained [from Dockerhub]( https://hub.docker.com/r/jupyter/pyspark-notebook ). 
- #### *certain updates and packages would need to be installed to fully replicate this project
+
+*certain updates and packages would need to be installed to fully replicate this project
  
  
 ### EDA & NLP
 
+--- Edit time series Graph --> change sql query & re_run code 
+
 ### Hypothesis Testing
+
+--- 
+
 
