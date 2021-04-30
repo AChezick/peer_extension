@@ -24,12 +24,12 @@ One interesting question is when are these sensitive tweets posted? Can we notic
 
 Top 15 Wordcloud for Possibly Sensitive tweets marked True
 
-( https://github.com/AChezick/peer_extension/blob/main/images/en_cloud_top15.png ) 
+![]( https://github.com/AChezick/peer_extension/blob/main/images/en_cloud_top15.png ) 
 
 
 Top 15 Wordcloud for Possibly Sensitive tweets marked False
 
-( https://github.com/AChezick/peer_extension/blob/main/images/enFAL_cloud_top15.png ) 
+![]( https://github.com/AChezick/peer_extension/blob/main/images/enFAL_cloud_top15.png ) 
 
 ### Hypothesis Testing
 
