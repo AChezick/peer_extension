@@ -23,4 +23,14 @@ Assuming possibly sensitive tweets are more likely to have a higher retweet coun
 
 --- 
 
+#### Does the addition of media impact retweet status? 
+
+
+
+..*Ho: Among all Possibly Sensitive tweets marked as True, those with media will Not have significantly different average retweet counts then those without media.
+..*Ha: Among all Possibly Sensitive tweets marked as True, those with media will have significantly different average retweet counts then those without media.
+
+Insufficient Data to test: sizes are 0 , 512
+
+''' Given there are no possibly sensitive tweets marked as True with media , there is insufficient evidence to reject the Ho. '''
 
