@@ -36,6 +36,7 @@ Given there are no possibly sensitive tweets marked as True with media , there i
 
 We can now search elsewhere to see if, at any level, there is evidence that would refute the null hypothesis. How about among the possibly sensitive tweets marked False... Are there any significant differences among retweet counts among those with and without media? 
 
+---
 
 * Ho: Among all Possibly Sensitive tweets marked as False, those with media will Not have significantly different average retweet counts then those without media.
 * Ha: Among all Possibly Sensitive tweets marked as False, those with media will have significantly different average retweet counts then those without media.
@@ -47,7 +48,7 @@ We can now search elsewhere to see if, at any level, there is evidence that woul
 
 Ttest_indResult(statistic=0.71 , pvalue=0.51). We still fail to reject the Ho
 
-
+---
 
 What about at the next largest scale? Among ALL quoted satus. 
 
@@ -66,7 +67,7 @@ There Does not seem to be evidence to support the hypothesis that media influenc
 
 --- 
 
-##### Does the trend of media not impacting tweet popularity continue when we switch our dependent variable to Like Count ?
+#### Does the trend of media not impacting tweet popularity continue when we switch our dependent variable to Like Count ?
 
 * Ho: Among all Possibly Sensitive tweets marked as True, those with media will Not have significantly different average Like counts then those without media.
 * Ha: Among all Possibly Sensitive tweets marked as True, those with media will have significantly different average Like counts then those without media.
@@ -86,6 +87,7 @@ We can now scale our test upwords to see if, at any level, there is evidence tha
 
 Ttest_indResult(statistic=0.80 , pvalue=0.45 ). We still fail to reject the Ho.
 
+---
 
 What about at the next largest scale? Among all quoted satus. 
 
@@ -99,5 +101,7 @@ What about at the next largest scale? Among all quoted satus.
 
 Ttest_indResult(statistic=0.80 , pvalue=0.45 ). 
 We still fail to reject the Ho.
+
+---
 
 A narrative about common sense would not be helpful. However, using certain premises we might be able to construct a reasonable narrative. Which is that among possible social media outlets Twitter is a text based medium that allows media. As compared to Ticktock, Instagram, Snap-chat which all focus on media that allows for text, the inverse of Twitter.
