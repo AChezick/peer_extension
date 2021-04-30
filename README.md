@@ -17,7 +17,19 @@ Assuming possibly sensitive tweets are more likely to have a higher retweet coun
  
 ### EDA & NLP
 
---- Edit time series Graph --> change sql query & re_run code 
+One interesting question is when are these sensitive tweets posted? Can we notice any trends ? 
+
+
+--- Edit time series Graph --> change sql query & re_run code
+
+Top 15 Wordcloud for Possibly Sensitive tweets marked True
+
+( https://github.com/AChezick/peer_extension/blob/main/images/en_cloud_top15.png ) 
+
+
+Top 15 Wordcloud for Possibly Sensitive tweets marked False
+
+( https://github.com/AChezick/peer_extension/blob/main/images/enFAL_cloud_top15.png ) 
 
 ### Hypothesis Testing
 
