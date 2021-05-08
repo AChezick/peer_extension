@@ -31,6 +31,10 @@ One interesting question is when are these sensitive tweets posted? Can we notic
 
 ![]( https://github.com/AChezick/peer_extension/blob/main/images/Hourly_Countsa.png )
 
+How does this compare to the tweets which are no sensitive and/or fasely marked sensitive?
+
+![]( https://github.com/AChezick/peer_extension/blob/main/images/hcountsF2.png )
+
 ### Hypothesis Testing
 
 --- 
