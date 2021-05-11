@@ -51,7 +51,7 @@ One interesting question is when are these sensitive tweets posted? Can we notic
 
 ![]( https://github.com/AChezick/peer_extension/blob/main/images/Hourly_Countsa.png )
 
-How does this compare to the tweets which are no sensitive and/or fasely marked sensitive?
+For reference '0' is 12am and 15 is 3pm. By looking at this graph and comparing it to the tweets which are not sensitive and/or fasely marked sensitive there is overlap in the shapes. This overlap shows that when most tweets are happening there are more senesitive tweets then when less people are tweeting.
 
 ![]( https://github.com/AChezick/peer_extension/blob/main/images/hcountsF2.png )
 
@@ -82,7 +82,7 @@ We can now search elsewhere to see if, at any level, there is evidence that woul
 | 0 | Ho         | 6     | 2445.83 | 3666.42 | 10127  | 0   | 1         |
 | 1 | Ha         | 14576 | 1277.99 | 5909.58 | 339281 | 0   | 327       |
 
-Ttest_indResult(statistic=0.71 , pvalue=0.51). We still fail to reject the Ho
+Ttest_indResult(statistic=0.71 , pvalue=0.51). We still fail to reject the Ho. Sample size among the two test groups is concerning. However, even with the unequal test sizes there was no enough evidence to suggest images have significant impact on retweet rates among Falsely marked possibly senesitive tweets. 
 
 ---
 
@@ -99,7 +99,7 @@ What about at the next largest scale? Among ALL quoted satus.
 Ttest_indResult(statistic=0.86 , pvalue=0.42 ). 
 We continue fail to reject the Ho.
 
-There Does not seem to be evidence to support the hypothesis that media influences retweet status.
+There Does not seem to be evidence to support the hypothesis that media influences retweet status. Among this data set there is not enough re-tweets with images and this data does not support exploring further into retweet status and images.
 
 --- 
 
@@ -139,5 +139,7 @@ Ttest_indResult(statistic=0.80 , pvalue=0.45 ).
 We still fail to reject the Ho.
 
 ---
+
+Given the lack of evidence a bonferroni correction was not implemented to further validate results.  
 
 A narrative about common sense would not be helpful. However, using certain premises we might be able to construct a reasonable narrative. Which is that among possible social media outlets Twitter is a text based medium that allows media. As compared to Ticktock, Instagram, Snap-chat which all focus on media that allows for text, the inverse of Twitter.
