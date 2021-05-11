@@ -21,13 +21,29 @@ Assuming possibly sensitive tweets are more likely to have a higher retweet coun
  
 ### EDA & NLP
 
-After cleaning text and removing stop words word clouds were created to show the most popular words among retweets.
+After cleaning text and removing stop words from the following seach:
+
+```SQL
+words_true = spark.sql('''
+SELECT lang , text,created_at, possibly_sensitive, quoted_status.favorite_count, entities.media.type
+FROM temp_view
+WHERE lang = 'en' and possibly_sensitive = "True";
+''').collect()
+```
+word clouds were created to show the most popular words among retweets.
 
 Top 15 Wordcloud for Possibly Sensitive tweets marked True
 
 ![]( https://github.com/AChezick/peer_extension/blob/main/images/en_cloud_top15.png ) 
 
 Top 15 Wordcloud for Possibly Sensitive tweets marked False
+```SQL
+words_false = spark.sql('''
+SELECT lang , text,created_at, possibly_sensitive, quoted_status.favorite_count, entities.media.type
+FROM temp_view
+WHERE lang = 'en' and possibly_sensitive = "False";
+''').collect()
+```
 
 ![]( https://github.com/AChezick/peer_extension/blob/main/images/enFAL_cloud_top15.png ) 
 
